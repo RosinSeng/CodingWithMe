@@ -3,6 +3,7 @@ import React from "react";
 export default function Course() {
   return (
     <div>
+      <h1 className="text-center text-6xl text-black">Hello Guy</h1>
       <div
         id="default-carousel"
         className="relative w-full"
