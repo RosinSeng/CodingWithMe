@@ -1,10 +1,11 @@
 import React from "react";
-import imglogo from "../assets/logo.jpg";
+import iphone from "../assets/iphone-15-pro-max.jpg";
+import Card from "../components/Card";
 
 export default function Home() {
   return (
     <main>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-gray-100 dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -27,9 +28,9 @@ export default function Home() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </a>
@@ -41,10 +42,16 @@ export default function Home() {
             </a>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={imglogo} alt="mockup" />
+            <img src={iphone} alt="" />
           </div>
         </div>
       </section>
+      <h2 className="flex justify-center font-thin text-2xl lg:mt-10 lg:mb-10 cursor-pointer text-black">
+        BEST SELLERS
+      </h2>
+      <div className="flex">
+        <Card />
+      </div>
     </main>
   );
 }
