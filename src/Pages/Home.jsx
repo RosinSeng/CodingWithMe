@@ -1,6 +1,7 @@
 import React from "react";
 import iphone from "../assets/iphone-15-pro-max.jpg";
 import Card from "../components/Card";
+import Heroicons from "../components/Heroicons"; 
 
 export default function Home() {
   return (
@@ -51,6 +52,9 @@ export default function Home() {
       </h2>
       <div className="flex">
         <Card />
+      </div>
+      <div className="flex justify-center mt-16">
+        <Heroicons />
       </div>
     </main>
   );
