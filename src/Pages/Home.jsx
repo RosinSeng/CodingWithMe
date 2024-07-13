@@ -2,6 +2,9 @@ import React from "react";
 import iphone from "../assets/iphone-15-pro-max.jpg";
 import Card from "../components/Card";
 import Heroicons from "../components/Heroicons"; 
+import ImagesGrid from "../components/ImagesGrid";
+import ContactUs from "../components/ContactUs";
+
 
 export default function Home() {
   return (
@@ -50,12 +53,23 @@ export default function Home() {
       <h2 className="flex justify-center font-thin text-2xl lg:mt-10 lg:mb-10 cursor-pointer text-black">
         BEST SELLERS
       </h2>
+      <hr className="m-5 h-2"></hr>
       <div className="flex">
         <Card />
       </div>
+      <hr className="m-5 h-2"></hr>
       <div className="flex justify-center mt-16">
         <Heroicons />
       </div>
+      <hr className="m-5 "></hr>
+      <div className=" ">
+        <ImagesGrid />
+      </div>
+      <hr className="m-5 h-2"></hr>
+      <div>
+        <ContactUs/>
+      </div>
+      <hr className="mt- "></hr>
     </main>
   );
 }
