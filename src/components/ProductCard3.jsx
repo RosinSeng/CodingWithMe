@@ -37,7 +37,7 @@ const ProductCard3 = () => {
           </div>
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-medium mb-2">iPad Pro 13″ Cellular 2024</h3>
+          <h3 className="text-lg font-medium mb-9">iPad Pro 13″ Cellular 2024</h3>
           <p className="text-gray-600 text-sm mb-4">Or $146.00/mo. for 12 mo.</p>
           <div className="flex items-center justify-between">
             <span className="font-bold text-lg">$1,639.00</span>
@@ -80,7 +80,7 @@ const ProductCard3 = () => {
           </div>
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-medium mb-2">
+          <h3 className="text-lg font-medium mb-9">
           iPad Pro 13″ Wi-Fi 2024
           </h3>
           <p className="text-gray-600 text-sm mb-4">Or $127.00/mo. for 12 mo..</p>
@@ -104,7 +104,7 @@ const ProductCard3 = () => {
           </div>
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-medium mb-2">
+          <h3 className="text-lg font-medium mb-9">
           iPad Air 11″ Cellular 2024
           </h3>
           <p className="text-gray-600 text-sm mb-4">Or $74.00/mo. for 12 mo.</p>

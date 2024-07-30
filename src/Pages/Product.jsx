@@ -33,7 +33,7 @@ const Product = () => {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
             <ProductCard3 />
           </div>
-          <h2 className="font-medium text-3xl ml-5 mt-5 mb-3">Android</h2>
+          <h2 className="font-medium text-3xl ml-5 mt-5 mb-3">Smart Watches</h2>
           <hr className="mb-5 border-t-2"></hr>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
             <ProductCard4 />
