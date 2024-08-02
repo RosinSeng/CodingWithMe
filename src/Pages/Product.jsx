@@ -11,7 +11,7 @@ const Product = () => {
       <div className="bg-gray-100 py-16">
         <div className="container mx-auto px-2">
           <h2 className="text-3xl font-bold text-black mb-14 text-center">
-            This is our new product
+            This is Our New Product
           </h2>
           <h2 className="font-medium text-3xl ml-5 mb-3">Android</h2>
           <hr className="mb-5 border-t-2 "></hr>
